@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/BoYuanZjq/RTCP2PEngine.git", 
-                     :tag => "#{s.version}" 
+                     :tag => "#{s.version}" ,
                      :submodules => true }
 
 
