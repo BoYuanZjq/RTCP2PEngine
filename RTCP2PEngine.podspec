@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RTCP2PEngine"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AnyRTC视频呼叫SDK"
 
   # This description is used to generate tags and improve search results.
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks =  "AVFoundation","AudioToolbox","VideoToolbox","CoreMedia","OpenGLES"
+  s.frameworks =  "AVFoundation","AudioToolbox","VideoToolbox","CoreMedia","OpenGLES","Security","GLKit","UIKit","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
