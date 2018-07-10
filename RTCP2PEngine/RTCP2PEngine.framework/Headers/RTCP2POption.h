@@ -41,5 +41,10 @@
  */
 @property (nonatomic, assign) AnyRTCVideoQualityModel videoMode;
 
+/**
+ 设置相机类型
+ 说明：根据自己的需求，选择相应的相机类型;默认AnyRTCCameraTypeNomal
+ */
+@property (nonatomic, nonatomic) AnyRTCCameraType cameraType;
 
 @end
