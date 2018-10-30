@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RTCP2PEngine"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "AnyRTC视频呼叫SDK"
 
   # This description is used to generate tags and improve search results.
